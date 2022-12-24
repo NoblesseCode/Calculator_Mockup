@@ -1,0 +1,129 @@
+/* 1.75, 1 */
+/* 전체 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Apple SD Gothic Neo';
+
+
+}
+
+body {
+    margin: 0;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+
+    /* align-items: center; */
+}
+
+.calculator {
+    flex-direction: column;
+    background-color: #5B595B;
+    width: 385px;
+    height: 525px;
+    border: none;
+    padding: none;
+    margin: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -3px 5px 5px 3px #7c7c7c;
+
+
+
+}
+
+/* 머리 */
+.calculator_head {
+    padding: 0px 10px;
+    height: 24.6%;
+    width: 100%;
+    flex-direction: column-reverse;
+}
+
+.button_color {
+    width: 17px;
+    height: 17px;
+    margin: 11px 3px;
+    border: none;
+    font-size: 0;
+
+    border-radius: 100px;
+}
+
+#button_red {
+    background-color: #f35f58;
+}
+
+#button_yellow {
+    background-color: #fbbc2e;
+}
+
+#button_green {
+    background-color: #56c83f;
+}
+
+.calculator_display {
+    width: 100%;
+    padding: 0px 10px;
+    text-align: right;
+    color: #FDEFDC;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+/* 몸통 */
+.calculator_body {
+    text-align: center;
+    width: 100%;
+    height: 75.4%;
+}
+
+.calculator_row {
+    width: 100%;
+    height: 20.2%;
+    border: none;
+    border-bottom: solid 1px #5B595B;
+
+}
+
+#row1>button:not(:last-child) {
+    background-color: #6B696B;
+}
+
+.calculator_row>button:last-child {
+    background-color: #F89F0C;
+}
+
+.calculator_row>button {
+    border: none;
+    margin: -2.5px -3px;
+    padding: 0px 0px;
+    background-color: #838283;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.calculator_row>button:not(:last-child) {
+    border-left: solid 1px #5B595B;
+}
+
+.number {
+    width: 25%;
+    height: 100%;
+    color: #FDEFDC;
+}
+
+.operator {
+    width: 25%;
+    height: 100%;
+    color: #FDEFDC;
+}
+
+.number0 {
+    width: 50%;
+    height: 100%;
+    color: #FDEFDC;
+
+}
